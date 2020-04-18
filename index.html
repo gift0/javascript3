@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Task3</title>
+</head>
+<body>
+    <script>
+        function checker(n){
+            //loop through n
+            let result = []
+            for(let i = 1; i <= n; i++){
+                let compare = ""
+                if(i % 2 == 0){
+                    compare ="yu"
+                }
+                if(i % 3 == 0){
+                    compare = compare.length >0?
+                compare += "-gi": commpare = "gi"
+                }
+                if(i % 5 == 0){
+                    compare = compare.length >0?
+                compare += "-oh": commpare = "oh"
+                }
+                result[i]=compare.length>0?
+                compare:i   
+            }
+            return result
+        }
+    </script>
+</body>
+</html>
